@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#050505"
+    android:orientation="vertical"
+    tools:context=".SettingsFragment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#090707">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/thanks_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Special Thanks"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"/>
+
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_margin="50dp"
+            app:cardCornerRadius="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/thank_you"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/thanks"
+            android:textColor="#ffff"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="200dp"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Visit Again"
+            android:textColor="#ffff"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="100dp"
+            android:textStyle="bold"
+            android:textSize="40dp"/>
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

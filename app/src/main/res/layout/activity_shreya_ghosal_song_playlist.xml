@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C9C9D6"
+    tools:context=".shreya_ghosal_song_playlistActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/playlist_singer_slit">
+
+        <ImageView
+            android:id="@+id/arijit_singh_back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_arrow_back_ios_new_24"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:contentDescription="@string/image"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/playlist_singer_slit">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/shreya_ghoshal"
+            app:civ_border_width="2dp"
+            android:layout_margin="30dp"
+            app:civ_border_color="#FD02A9" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shreya Ghoshal"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="30sp"/>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginBottom="20dp"
+        android:background="#C9C9D6"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/shreya_ghoshal_songs_playlist"/>
+
+</LinearLayout>

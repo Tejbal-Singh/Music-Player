@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Music_player</string>
+    <string name="myMusic">My Music</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image">This is logo image</string>
+    <string name="singer">Singers</string>
+    <string name="name">Arijit Singh</string>
+    <string name="sidebar">This is an sidebar image</string>
+    <string name="jubin">Jubin Nautiyal</string>
+    <string name="neha">Neha Kakkar</string>
+    <string name="badshah">Badshah</string>
+    <string name="honey">Honey Singh</string>
+    <string name="guru">Guru Randhawa</string>
+    <string name="Shreya">Shreya Ghoshal</string>
+    <string name="music">Enjoy Music</string>
+    <string name="download">Downloads</string>
+    <string name="thanks">Thank you for visiting SOFTMUSIC app. I will always try to provide you new and latest song.So enjoy the music.</string>
+
+</resources>
